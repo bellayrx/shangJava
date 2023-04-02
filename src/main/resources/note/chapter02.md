@@ -24,7 +24,7 @@ Java变量的类型：
 
 基本数据类型：
 
-整数型：byte 、short、int、long
+整数型：byte 、short、int、long(**需要提供后缀大写的L**)
 
 浮点型：float 、 double
 
@@ -45,3 +45,8 @@ Java变量的类型：
 注解：annotation jdk5.0
 
 记录：record jdk十几
+
+long加L，float加F
+
+**浮点类型float、double的数据不适合在**`不容许舍入误差`的金融计算领域。如果需要`精确`
+数字计算或保留指定位数的精度，需要使用`BigDecimal类`。
