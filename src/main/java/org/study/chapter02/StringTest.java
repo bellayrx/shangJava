@@ -23,6 +23,12 @@ public class StringTest {
         String str4 = "hello";
         System.out.println(str4 + b1 + num1);
 //        String str5 = num1 + b1 + str4; 编译不通过，只能String开头
+        int num2 = 10;
+        String str7 = num2 + "";
+        String str8 = "abc"; //不能转换为基本数据类型
+//        int num3=(int)str7; 错误
+        int i = Integer.parseInt(str7);
+        System.out.println(i);
 
 
     }
