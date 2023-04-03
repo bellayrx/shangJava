@@ -9,6 +9,9 @@ public class AriExer1 {
         int day = hours / 24;
         int hour = hours % 24;
         System.out.println(day + " " + hour);
+        int i = 1;
+        int j = i++ + ++i * i++;
+        System.out.println("j = " + j);//10
 
     }
 }
