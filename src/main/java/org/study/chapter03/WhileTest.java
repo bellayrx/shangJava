@@ -3,6 +3,12 @@ package org.study.chapter03;
 /**
  * while循环
  * 理论上for和while相互转换
+ * ①初始化部分
+ * while(②循环条件部分)｛
+ * ③循环体部分;
+ * ④迭代部分;
+ * }
+ * ①-②-③-④-②-③-④-②-③-④-...-②
  */
 public class WhileTest {
     public static void main(String[] args) {
