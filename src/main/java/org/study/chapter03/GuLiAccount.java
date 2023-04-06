@@ -35,13 +35,14 @@ public class GuLiAccount {
                     break;
                 case '3':
                     System.out.print("本次支出金额：");
-                    int amount2 = Utility.readNumber();
+                    int money2 = Utility.readNumber();
                     System.out.print("本次支出说明：");
                     String desc2 = Utility.readString();
-
-                    balance -= amount2;
+                    if (money2 > 0 && balance >= money2) {
+                        balance -= money2;
+                    }
                     info += "支出\t" + balance + "\t\t" +
-                            amount2 + "\t\t" + desc2 + "\n";
+                            money2 + "\t\t" + desc2 + "\n";
                     System.out.println("---------------------登记完成---------------------");
                     break;
                 case '4':
