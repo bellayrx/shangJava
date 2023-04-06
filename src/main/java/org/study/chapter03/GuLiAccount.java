@@ -1,5 +1,11 @@
 package org.study.chapter03;
 
+/**
+ * 李顾帐户
+ *
+ * @author bella
+ * @date 2023/04/06
+ */
 public class GuLiAccount {
     public static void main(String[] args) {
         boolean flag = true;
@@ -29,8 +35,7 @@ public class GuLiAccount {
                     }
                     System.out.print("本次收入说明：");
                     String addDesc = Utility.readString();
-                    info += "收入\t" + balance + "\t\t" +
-                            money1 + "\t\t" + addDesc + "\n";
+                    info += "收入\t" + balance + "\t\t" + money1 + "\t\t" + addDesc + "\n";
                     System.out.println("---------------------登记完成---------------------");
                 }
                 case '3' -> {
@@ -41,8 +46,7 @@ public class GuLiAccount {
                     if (money2 > 0 && balance >= money2) {
                         balance -= money2;
                     }
-                    info += "支出\t" + balance + "\t\t" +
-                            money2 + "\t\t" + desc2 + "\n";
+                    info += "支出\t" + balance + "\t\t" + money2 + "\t\t" + desc2 + "\n";
                     System.out.println("---------------------登记完成---------------------");
                 }
                 case '4' -> {
