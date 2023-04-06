@@ -15,13 +15,13 @@ public class GuLiAccount {
             System.out.print("                   请选择(1-4)：");
             char selection = Utility.readMenuSelection();//获取用户的选项
             switch (selection) {
-                case '1':
+                case '1' -> {
                     System.out.println("-----------------当前收支明细记录-----------------");
                     System.out.println("收支\t账户金额\t收支金额\t说    明\n");
                     System.out.println(info);
                     System.out.println("--------------------------------------------------");
-                    break;
-                case '2':
+                }
+                case '2' -> {
                     System.out.print("本次收入金额：");
                     int money1 = Utility.readNumber();
                     if (money1 > 0) {
@@ -32,8 +32,8 @@ public class GuLiAccount {
                     info += "收入\t" + balance + "\t\t" +
                             money1 + "\t\t" + addDesc + "\n";
                     System.out.println("---------------------登记完成---------------------");
-                    break;
-                case '3':
+                }
+                case '3' -> {
                     System.out.print("本次支出金额：");
                     int money2 = Utility.readNumber();
                     System.out.print("本次支出说明：");
@@ -44,16 +44,16 @@ public class GuLiAccount {
                     info += "支出\t" + balance + "\t\t" +
                             money2 + "\t\t" + desc2 + "\n";
                     System.out.println("---------------------登记完成---------------------");
-                    break;
-                case '4':
+                }
+                case '4' -> {
                     System.out.print("确认是否退出(Y/N)：");
                     char isExit = Utility.readConfirmSelection();
                     if (isExit == 'Y') {
                         flag = false;
                     }
-                    break;
-                default:
-                    break;
+                }
+                default -> {
+                }
             }
         }
     }
