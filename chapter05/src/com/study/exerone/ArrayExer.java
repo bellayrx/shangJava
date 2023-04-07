@@ -1,4 +1,4 @@
-package com.study.exer;
+package com.study.exerone;
 
 /**
  * ClassName: ArrayExer

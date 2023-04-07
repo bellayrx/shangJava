@@ -1,4 +1,4 @@
-package com.study.exer;
+package com.study.exerone;
 /*
 ArrayExer2的优化
  */

@@ -1,4 +1,4 @@
-package com.study.exer;
+package com.study.exerone;
 /*
 
 案例：学生考试等级划分

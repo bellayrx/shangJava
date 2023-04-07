@@ -1,4 +1,4 @@
-package com.study.exer;
+package com.study.exerone;
 /*
 
 案例：输出英文星期几
