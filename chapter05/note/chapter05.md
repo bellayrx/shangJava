@@ -59,5 +59,7 @@ Java中的容器：数组、集合框架（第12章）：在内存中对多个�
 > 堆：用于存放数组的实体（即数组中的所有元素）。比如：1,2,3
 
 8.2 举例：具体一维数组的代码的内存解析
-![一维数组的内存解析1.png](%D2%BB%CE%AC%CA%FD%D7%E9%B5%C4%C4%DA%B4%E6%BD%E2%CE%F61.png)
-![一维数组的内存解析2.png](%D2%BB%CE%AC%CA%FD%D7%E9%B5%C4%C4%DA%B4%E6%BD%E2%CE%F62.png)
+
+![一维数组的内存解析1](E:\code\javacode\shangJava\chapter05\note\img\一维数组的内存解析1.png)
+
+![一维数组的内存解析2](E:\code\javacode\shangJava\chapter05\note\img\一维数组的内存解析2.png)
