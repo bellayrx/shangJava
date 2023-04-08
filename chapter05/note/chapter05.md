@@ -94,3 +94,8 @@ Java中的容器：数组、集合框架（第12章）：在内存中对多个�
 3.2 动态初始化方式2：(比如：int[][] arr = new int[3][])
 1）外层元素，默认存储null
 2）内层元素，不存在的。如果调用会报错（NullPointerException）
+
+![二维数组的内存解析1](E:\code\javacode\shangJava\chapter05\note\img\二维数组的内存解析1.png)
+
+![二维数组的内存解析2](E:\code\javacode\shangJava\chapter05\note\img\二维数组的内存解析2.png)
+
