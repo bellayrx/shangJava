@@ -24,4 +24,8 @@ public class Phone {
         System.out.println("手机能够发信息" + message);
     }
 
+    public void playGame() {
+        System.out.println("手机玩儿游戏");
+    }
+
 }
