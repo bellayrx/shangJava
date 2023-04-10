@@ -23,12 +23,16 @@ public class PersonTest {
         p1.interest("read");
 
         Person p2 = new Person();
-        p2.name = "rose";
+        p2.name = "露丝";
         p2.age = 18;
         p2.gender = '女';
         System.out.println("name=" + p2.name + ",age=" + p2.age + ",gender=" + p2.gender);
         p2.eat();
-
+        //属性是每个对象都有一份 这里p1不会显示p2的内容
+        System.out.println("name=" + p1.name + ",age=" + p1.age + ",gender=" + p1.gender);
+        Person p3 = p1;
+        p3.age = 100;
+        System.out.println("name=" + p1.name + ",age=" + p1.age + ",gender=" + p1.gender);
 
     }
 }
