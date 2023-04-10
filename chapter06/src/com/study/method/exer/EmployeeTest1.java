@@ -1,4 +1,5 @@
-package com.study.method;
+package com.study.method.exer;
+
 
 /**
  * ClassName: EmployeeTest1
@@ -30,9 +31,11 @@ public class EmployeeTest1 {
         和上面一行一样
         */
         //打印员工信息
-        System.out.println("id = " + emp1.id + ",name = " + emp1.name +
-                ", age = " + emp1.age + ", salary = " + emp1.salary +
-                ", birthday = [" + emp1.birthday.year + "年" + emp1.birthday.month +
-                "月" + emp1.birthday.day + "日]");
+//        System.out.println("id = " + emp1.id + ",name = " + emp1.name +
+//                ", age = " + emp1.age + ", salary = " + emp1.salary +
+//                ", birthday = [" + emp1.birthday.year + "年" + emp1.birthday.month +
+//                "月" + emp1.birthday.day + "日]");
+        emp1.show();
+        System.out.println(emp1.show1());
     }
 }

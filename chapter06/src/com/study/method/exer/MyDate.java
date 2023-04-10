@@ -1,4 +1,4 @@
-package com.study.method;
+package com.study.method.exer;
 
 /**
  * ClassName: MyDate
@@ -17,8 +17,8 @@ package com.study.method;
  * @Create 2023/4/10 10:34
  * @Version 1.0
  */
-public class MyDate {
-    public int year;
-    public int month;
-    public int day;
+public class MyDate extends com.study.method.MyDate {
+    int year;
+    int month;
+    int day;
 }
