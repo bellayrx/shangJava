@@ -37,8 +37,13 @@ public class CheckAccount extends Account {
      */
     @Override
     public void withdraw(double amount) {
-        if (amount <= overdraft) {
-
+        if (getBalance() >= amount) {
+            super.withdraw(amount);
+        } else if (getBalance() + overdraft >= amount) {
+            overdraft -= amount - getBalance();
+            super.withdraw(getBalance());
+        } else {
+            System.out.println("超过可支配限额");
         }
     }
 }
