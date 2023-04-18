@@ -86,3 +86,9 @@ return getClass().getName() + "@" + Integer.toHexString(hashCode());
 
 > 习惯上，开发中对于自定义的类在调用toString()时，也希望显示其对象的实体内容，而非地址值。这时候，就需要重写Object
 > 类中的toString().
+
+造对象：
+
+1.new
+
+2.clone
